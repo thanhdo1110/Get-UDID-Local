@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D69AD3202E66CE0F006701A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69AD2FC2E66CE0E006701A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69AD3032E66CE0E006701A5;
+			remoteInfo = "Get UDID";
+		};
+		D69AD32A2E66CE0F006701A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69AD2FC2E66CE0E006701A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69AD3032E66CE0E006701A5;
+			remoteInfo = "Get UDID";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69AD3042E66CE0E006701A5 /* Get UDID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get UDID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69AD31F2E66CE0F006701A5 /* Get UDIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get UDIDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69AD3292E66CE0F006701A5 /* Get UDIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get UDIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D69AD3312E66CE0F006701A5 /* Exceptions for "Get UDID" folder in "Get UDID" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D69AD3032E66CE0E006701A5 /* Get UDID */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D69AD3062E66CE0E006701A5 /* Get UDID */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D69AD3312E66CE0F006701A5 /* Exceptions for "Get UDID" folder in "Get UDID" target */,
+			);
+			path = "Get UDID";
+			sourceTree = "<group>";
+		};
+		D69AD3222E66CE0F006701A5 /* Get UDIDTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Get UDIDTests";
+			sourceTree = "<group>";
+		};
+		D69AD32C2E66CE0F006701A5 /* Get UDIDUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Get UDIDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69AD3012E66CE0E006701A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD31C2E66CE0F006701A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD3262E66CE0F006701A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69AD2FB2E66CE0E006701A5 = {
+			isa = PBXGroup;
+			children = (
+				D69AD3062E66CE0E006701A5 /* Get UDID */,
+				D69AD3222E66CE0F006701A5 /* Get UDIDTests */,
+				D69AD32C2E66CE0F006701A5 /* Get UDIDUITests */,
+				D69AD3052E66CE0E006701A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69AD3052E66CE0E006701A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69AD3042E66CE0E006701A5 /* Get UDID.app */,
+				D69AD31F2E66CE0F006701A5 /* Get UDIDTests.xctest */,
+				D69AD3292E66CE0F006701A5 /* Get UDIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69AD3032E66CE0E006701A5 /* Get UDID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69AD3322E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDID" */;
+			buildPhases = (
+				D69AD3002E66CE0E006701A5 /* Sources */,
+				D69AD3012E66CE0E006701A5 /* Frameworks */,
+				D69AD3022E66CE0E006701A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D69AD3062E66CE0E006701A5 /* Get UDID */,
+			);
+			name = "Get UDID";
+			packageProductDependencies = (
+			);
+			productName = "Get UDID";
+			productReference = D69AD3042E66CE0E006701A5 /* Get UDID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69AD31E2E66CE0F006701A5 /* Get UDIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69AD3372E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDIDTests" */;
+			buildPhases = (
+				D69AD31B2E66CE0F006701A5 /* Sources */,
+				D69AD31C2E66CE0F006701A5 /* Frameworks */,
+				D69AD31D2E66CE0F006701A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69AD3212E66CE0F006701A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D69AD3222E66CE0F006701A5 /* Get UDIDTests */,
+			);
+			name = "Get UDIDTests";
+			packageProductDependencies = (
+			);
+			productName = "Get UDIDTests";
+			productReference = D69AD31F2E66CE0F006701A5 /* Get UDIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69AD3282E66CE0F006701A5 /* Get UDIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69AD33A2E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDIDUITests" */;
+			buildPhases = (
+				D69AD3252E66CE0F006701A5 /* Sources */,
+				D69AD3262E66CE0F006701A5 /* Frameworks */,
+				D69AD3272E66CE0F006701A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69AD32B2E66CE0F006701A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D69AD32C2E66CE0F006701A5 /* Get UDIDUITests */,
+			);
+			name = "Get UDIDUITests";
+			packageProductDependencies = (
+			);
+			productName = "Get UDIDUITests";
+			productReference = D69AD3292E66CE0F006701A5 /* Get UDIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69AD2FC2E66CE0E006701A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D69AD3032E66CE0E006701A5 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D69AD31E2E66CE0F006701A5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D69AD3032E66CE0E006701A5;
+					};
+					D69AD3282E66CE0F006701A5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D69AD3032E66CE0E006701A5;
+					};
+				};
+			};
+			buildConfigurationList = D69AD2FF2E66CE0E006701A5 /* Build configuration list for PBXProject "Get UDID" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69AD2FB2E66CE0E006701A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D69AD3052E66CE0E006701A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69AD3032E66CE0E006701A5 /* Get UDID */,
+				D69AD31E2E66CE0F006701A5 /* Get UDIDTests */,
+				D69AD3282E66CE0F006701A5 /* Get UDIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69AD3022E66CE0E006701A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD31D2E66CE0F006701A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD3272E66CE0F006701A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69AD3002E66CE0E006701A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD31B2E66CE0F006701A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD3252E66CE0F006701A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69AD3212E66CE0F006701A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69AD3032E66CE0E006701A5 /* Get UDID */;
+			targetProxy = D69AD3202E66CE0F006701A5 /* PBXContainerItemProxy */;
+		};
+		D69AD32B2E66CE0F006701A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69AD3032E66CE0E006701A5 /* Get UDID */;
+			targetProxy = D69AD32A2E66CE0F006701A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D69AD3332E66CE0F006701A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Get UDID/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69AD3342E66CE0F006701A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Get UDID/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69AD3352E66CE0F006701A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D69AD3362E66CE0F006701A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69AD3382E66CE0F006701A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get UDID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get UDID";
+			};
+			name = Debug;
+		};
+		D69AD3392E66CE0F006701A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get UDID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get UDID";
+			};
+			name = Release;
+		};
+		D69AD33B2E66CE0F006701A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Get UDID";
+			};
+			name = Debug;
+		};
+		D69AD33C2E66CE0F006701A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W8T7XBXTA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ctdo.Get-UDIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Get UDID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69AD2FF2E66CE0E006701A5 /* Build configuration list for PBXProject "Get UDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69AD3352E66CE0F006701A5 /* Debug */,
+				D69AD3362E66CE0F006701A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69AD3322E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69AD3332E66CE0F006701A5 /* Debug */,
+				D69AD3342E66CE0F006701A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69AD3372E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69AD3382E66CE0F006701A5 /* Debug */,
+				D69AD3392E66CE0F006701A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69AD33A2E66CE0F006701A5 /* Build configuration list for PBXNativeTarget "Get UDIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69AD33B2E66CE0F006701A5 /* Debug */,
+				D69AD33C2E66CE0F006701A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69AD2FC2E66CE0E006701A5 /* Project object */;
+}

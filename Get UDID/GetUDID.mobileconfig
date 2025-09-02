@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>http://127.0.0.1:1110/udid</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+            <string>IMEI</string>
+            <string>PRODUCT</string>
+            <string>VERSION</string>
+            <string>SERIAL</string>
+        </array>
+        <key>Challenge</key>
+        <string>GetUDIDChallenge2025</string>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>UDID Extraction Tool</string>
+    <key>PayloadDisplayName</key>
+    <string>Device Information (UDID)</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-7890-ABCD-1234567890AB</string>
+    <key>PayloadIdentifier</key>
+    <string>com.getudid.profile.service.2025</string>
+    <key>PayloadDescription</key>
+    <string>Knowing the UDID of my iOS device</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>

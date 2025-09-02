@@ -1,0 +1,3 @@
+openssl smime -verify -in GetUDID-signed.mobileconfig -inform der -noverify
+
+openssl smime -sign -in GetUDID.mobileconfig -out GetUDID-signed.mobileconfig -signer cert.pem -inkey key.key -certfile cert.pem -outform der -nodetach
